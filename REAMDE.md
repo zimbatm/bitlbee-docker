@@ -19,3 +19,8 @@ clone this repo and go to it's root directory.
 
 `docker build .`
 
+See also
+--------
+
+https://github.com/sprsquish/dockerfiles/tree/master/bitlbee is probably
+better
