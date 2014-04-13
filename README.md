@@ -8,7 +8,10 @@ container to simplify it's distribution and usage.
 Usage
 -----
 
-`docker run -p 6667:6667 zimbatm/bitlbee`
+```
+docker run -v /data --name bitlbee-data busybox true || true
+docker run -t -i --rm --volume-from bitlbee-data zimbatm/bitlbee
+```
 
 Build
 -----
