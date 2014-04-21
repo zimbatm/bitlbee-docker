@@ -10,7 +10,7 @@ Usage
 
 ```
 docker run -v /data --name bitlbee-data busybox true || true
-docker run -t -i --rm --volume-from bitlbee-data zimbatm/bitlbee
+docker run -t -i --rm --name bitlbee --volumes-from bitlbee-data zimbatm/bitlbee
 ```
 
 Build
